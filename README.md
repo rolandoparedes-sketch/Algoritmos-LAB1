@@ -41,9 +41,18 @@ N(6+4N)
 
 1+1+N+1+N+4N²+6N+1 = 4N² + 8N + 4
 
+EJERCICIO 3:
+int CalculateFinalDamage( int Attack, int defense, float multipliear)
+{
+int BaseDamage = attack - defense;
+int finalDamage = (int)(baseDamage * multiplier);
 
-
-
+if (finalDamage < 0)
+{
+finalDamage = 0;
+}
+return finalDamage;
+}
 
 
 
