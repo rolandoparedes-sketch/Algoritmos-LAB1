@@ -54,6 +54,15 @@ finalDamage = 0;
 return finalDamage;
 }
 
+SOLUCION:
+
+2+2+1+1+1
+7
+
+T(N) = 7
+O(N) = 1
+
+
 
 
 
